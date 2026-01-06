@@ -1,0 +1,135 @@
+/* 🌊 Stormy Sea Theme */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(180deg, #020617, #020617, #041c32);
+  color: #e5e7eb;
+  min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: rgba(2, 6, 23, 0.8);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo {
+  font-size: 22px;
+  color: #7dd3fc;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #cbd5f5;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #7dd3fc;
+}
+
+/* Hero Section */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, rgba(125, 211, 252, 0.15), transparent 60%);
+}
+
+.hero h1 {
+  font-size: 52px;
+  color: #e0f2fe;
+  text-shadow: 0 0 20px rgba(125, 211, 252, 0.25);
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #94a3b8;
+}
+
+/* Button */
+.btn {
+  margin-top: 30px;
+  padding: 14px 35px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #0ea5e9, #0369a1);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 25px rgba(14, 165, 233, 0.35);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 40px rgba(14, 165, 233, 0.6);
+}
+
+/* Content Sections */
+.content {
+  padding: 80px 15%;
+}
+
+.content h1 {
+  color: #7dd3fc;
+  margin-bottom: 25px;
+  font-size: 36px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #cbd5f5;
+}
+
+/* Projects */
+.project {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(125, 211, 252, 0.15);
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s, border 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-6px);
+  border-color: #7dd3fc;
+}
+
+.project h3 {
+  color: #e0f2fe;
+  margin-bottom: 10px;
+}
+
+/* Footer vibe (optional) */
+footer {
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+  color: #64748b;
+}
