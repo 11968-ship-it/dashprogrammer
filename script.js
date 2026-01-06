@@ -13,3 +13,13 @@ document.addEventListener("mousemove", (e) => {
     linear-gradient(180deg, #020617, #041c32)
   `;
 });
+
+// ⚡ Random lightning flash
+setInterval(() => {
+  if (Math.random() > 0.97) {
+    document.body.classList.add("lightning");
+    setTimeout(() => {
+      document.body.classList.remove("lightning");
+    }, 120);
+  }
+}, 3000);
