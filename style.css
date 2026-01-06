@@ -183,3 +183,13 @@ footer {
     transform: translateX(-50%);
   }
 }
+
+/* ⚡ Lightning flash */
+body.lightning::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(180, 220, 255, 0.08);
+  pointer-events: none;
+  z-index: 10;
+}
